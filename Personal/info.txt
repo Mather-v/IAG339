@@ -1,0 +1,9 @@
+git init
+-- Inicializa 
+
+git add .
+-- Agrega los cambios realizados
+
+git commit -m
+-- Usado para brindar información sobre el commit, porqué se hizo
+

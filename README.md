@@ -12,3 +12,5 @@ comados de git
 git init
 git add .
 git commit -m "nombre el commmit"
+
+Set-ExecutionPolicy Unrestricted

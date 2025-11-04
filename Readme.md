@@ -13,7 +13,8 @@ Ctrl + Alt + M para crear la tabla
 
 
 ## ⚙️ Comandos python
-Comando            | Descripción
--------------------|------------------------------
-pip list           | Lista de librerias instaladas
-python -m venv env | Crea el entorno virtual
+Comando                          | Descripción
+---------------------------------|-----------------------------------------------------------------------
+pip list                         | Lista de librerias instaladas
+python -m venv env               | Crea el entorno virtual
+set-ExecutionPolicy Unrestricted | Comando usado para resolver problema de activación del env

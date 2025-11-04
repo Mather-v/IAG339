@@ -1,11 +1,48 @@
-div{
+/* body {
+    background-color: aqua;
+} */
+
+*{
+    margin: 1%;
+    padding: 1%;
+}
+
+header {
+    background-color: chartreuse;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 10px 10px;
+}
+
+nav ul li a {
+    color: azure;
+    text-decoration: none;
+    
+}
+
+div {
     color:green;
 }
 
-.fachero{
+.fachero {
     color:blueviolet;
 }
 
-#facherito{
+#facherito {
     color:aquamarine;
 }   
+
+h1 {
+    color:aquamarine;
+}

@@ -14,3 +14,7 @@ git add .
 git commit -m "nombre el commmit"
 
 Set-ExecutionPolicy Unrestricted
+
+```
+print("Hola Mundo")
+```

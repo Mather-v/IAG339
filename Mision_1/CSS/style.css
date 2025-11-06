@@ -3,8 +3,8 @@
 } */
 
 *{
-    margin: 1%;
-    padding: 1%;
+    margin: 0%;
+    padding: 0%;
 }
 
 header {
@@ -12,6 +12,7 @@ header {
     color: whitesmoke;
     padding: 20px;
     text-align: center;
+    width: 100%;
 }
 
 nav ul {
@@ -45,4 +46,17 @@ div {
 
 h1 {
     color:aquamarine;
+}
+
+/* Estilos footer */
+
+footer {
+    background-color: #333;
+    color: green;
+    text-align: center;
+    padding: 20px;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+    
 }

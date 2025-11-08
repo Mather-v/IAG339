@@ -1,18 +1,17 @@
 /* body {
-    background-color: aqua;
+    background-color: burlywood;
 } */
+ /* Resetear estilos */
+  *{
+    margin: 0;
+    padding: 0;
+  }
 
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
-header {
-    background-color: chartreuse;
-    color: whitesmoke;
+header{
+    background-color: #007acc;
+    color: white;
     padding: 20px;
     text-align: center;
-    width: 100%;
 }
 
 nav ul {
@@ -22,41 +21,87 @@ nav ul {
     margin-top: 10px;
 }
 
-nav ul li {
-    margin: 10px 10px;
+nav ul li{
+    margin: 0 15px;
 }
 
-nav ul li a {
-    color: azure;
+nav ul li a{
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-div {
-    color:green;
-}
-
-.fachero {
-    color:blueviolet;
-}
-
-#facherito {
-    color:aquamarine;
-}   
-
 h1 {
-    color:aquamarine;
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: orange;
 }
 
 /* Estilos footer */
-
-footer {
+footer{
     background-color: #333;
-    color: green;
+    color: white;
     text-align: center;
-    padding: 20px;
-    position: relative; 
-    bottom: 0;
-    width: 100%;
-    
+    padding: 20px 0;
+    position: relative;
 }
+
+.contenido{
+    padding: 40px;
+    text-align: center;
+}
+
+.formulario{
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #c7b7b7;
+    padding: 20px;
+    border-radius: 40px;
+    border: 3px solid black;
+}
+
+.formulario h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+}
+
+.formulario button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.formulario button:hover {
+    background-color: azure;
+    color:black
+}
+
